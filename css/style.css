@@ -153,3 +153,7 @@ footer span{
 footer .footer-info ul{
     display: flex;
 }
+
+footer .footer-social span{
+    display: block;
+}
