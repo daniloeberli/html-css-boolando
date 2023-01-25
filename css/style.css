@@ -1,0 +1,62 @@
+/*
+Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Common
+*/
+
+ul{
+    list-style: none;
+}
+
+/*
+Header
+*/
+
+header{
+    background-color: #ff6900;
+}
+
+.nav-selector{
+    width: 20%;
+}
+
+.logo{
+    width: 60%;
+}
+
+.icons{
+    width: 20%;
+}
+
+header .header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-nav .nav-selector,
+header .header-nav .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+/*
+Main
+*/
+
+
+/*
+Footer
+*/
