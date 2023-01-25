@@ -131,6 +131,14 @@ Main
     left: 250px;
 }
 
+.price{
+    color: red;
+}
+
+.price s{
+    color: darkgrey;
+}
+
 /*
 Footer
 */
