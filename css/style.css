@@ -26,7 +26,7 @@ a{
 .container{
     margin: 0 auto;
     width: 80%;
-    margin-top: 40px;
+    margin-top: 90px;
     margin-bottom: 20px;
 }
 
@@ -37,6 +37,7 @@ img{
 
 i{
     padding: 5px;
+    color: white;
 }
 
 .flex{
@@ -56,7 +57,13 @@ Header
 header{
     background-color: #ff6900;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
+
 
 .nav-selector{
     width: 20%;
@@ -99,6 +106,8 @@ Main
 
 .foto{
     width: 80%;
+    position: relative;
+    
 }
 
 .txt{
@@ -112,4 +121,19 @@ Footer
 
 footer{
     background-color: #1a1a1a;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer .footer-info ul li{
+    padding: 5px;
+}
+
+footer span{
+    color: white;
+}
+
+footer .footer-info ul{
+    display: flex;
 }
